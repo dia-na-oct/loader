@@ -1,0 +1,65 @@
+.hidden-text {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 10s steps(10) infinite;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    10% {
+        width:10%;
+    }
+    25% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        width: 75%;
+    }
+    100% {
+        width: 100%;
+    }
+} 
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.connector {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    background-color: #3498db;
+   
+}

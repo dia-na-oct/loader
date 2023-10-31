@@ -1,0 +1,56 @@
+.hidden-text {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    
+    animation: type 5s steps(5) infinite;
+
+}
+
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    10% {
+        width:10%;
+    }
+    25% {
+        width: 25%;
+    }
+    50% {
+        width: 50%;
+    }
+    75% {
+        width: 75%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+  
+  .progress-7 {
+    width:120px;
+    height:24px;
+    -webkit-mask:
+      radial-gradient(circle closest-side,#000 94%,#0000) 0 0/25% 100%,
+      linear-gradient(#000 0 0) center/calc(100% - 12px) calc(100% - 12px) no-repeat;
+    background:
+     linear-gradient(#25b09b 0 0) 0/0% no-repeat
+     #ddd;
+    animation:p7 3s infinite linear;
+  }
+
+  
+  @keyframes p7 {
+    0% {
+        background-size: 0;
+    }
+    100% {
+        background-size: 100px;
+    }
+  }
+  
